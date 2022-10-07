@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F5F5F5;
+}
+
+.container {
+    display: flex;
+}
+
+.left-side {
+    width: 344px;
+    height: 1000px;
+    background-color: #ffff;
+}
+
+.left-side>img {
+    margin: 15px 112px 36px 24px;
+}
+
+.store-no {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-left: 37px;
+}
+
+
+.store-text>h5 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #212121;
+    margin: 0;
+}
+
+.store-text>p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #616161;
+    margin: 0;
+
+}
+
+.right-side {
+    width: 1096px;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin: 28px 0 0 24px;
+}
+
+.home>p {
+    margin: 0;
+}
+
+/* right side start */
+
+
+.right-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+
+}
+
+.right-side-searchbox {
+    display: flex;
+    gap: 26px;
+    margin-left: 39px;
+}
+
+.aliuzzaman {
+    display: flex;
+    align-items: center;
+    width: 212px;
+    height: 72px;
+    background: #FFF8E1;
+    padding: 15px;
+    margin-right: 24px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.aliuzzaman-text>h4 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0;
+
+    color: #212121;
+}
+
+.aliuzzaman-text>h5 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+
+
+    /* Mute Color/Gray 600 */
+
+    color: #757575;
+
+}
+
+.input>input {
+    width: 365px;
+    height: 48px;
+}
+
+.input {
+    position: relative;
+}
+
+.input>img {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+::placeholder {
+    padding-left: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    /* identical to box height, or 100% */
+
+
+    /* Mute Color/Gray 500 */
+
+    color: #9E9E9E;
+}
+
+.profit-lost-report {
+    background-color: #fff;
+    border-top: 1px solid #E0E0E0;
+}
+
+.profit-lost-report>p {
+    margin-left: 34px;
+    padding: 12px 0 12px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* Mute Color/Gray 900 */
+
+    color: #212121;
+
+}
+
+.profit-lost-report>p>span {
+    color: gray;
+}
+
+.report {}
+
+.report-left {
+    width: 684px;
+    height: 427px;
+    background-color: #fff;
+    margin: 23px 0 0 34px;
+
+}
+
+.report-left>div>input {
+    width: 636px;
+}
+
+.product-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+    padding: 0 83px 0 16px;
+}
+
+.product-list-1 {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+.product-list-1>p {
+    margin: 0;
+}
+
+.product-list-2 {
+    display: flex;
+    gap: 72px;
+    align-items: center;
+    margin: 0;
+}
+
+.product-list-2>p {
+    margin: 0;
+}
