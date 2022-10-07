@@ -90,6 +90,10 @@ body {
     border-bottom: 1px solid #E0E0E0;
 }
 
+.aliuzzaman-text {
+    margin-left: 6px;
+}
+
 .aliuzzaman-text>h4 {
     font-weight: 400;
     font-size: 14px;
@@ -168,22 +172,26 @@ body {
 
 .report-left {
     width: 684px;
-    height: 427px;
     background-color: #fff;
     margin: 23px 0 0 34px;
-
 }
 
 .report-left>div>input {
     width: 636px;
 }
 
+.report-left>div {
+    top: 16px;
+    left: 20px;
+}
+
 .product-list {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 16px;
+    margin-top: 32px;
     padding: 0 83px 0 16px;
+    /* border: 1px solid #F5F5F5; */
 }
 
 .product-list-1 {
@@ -205,4 +213,22 @@ body {
 
 .product-list-2>p {
     margin: 0;
+}
+
+.product-list-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #424242;
+}
+
+.product-list-text>span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #616161;
+}
+
+.marginleft {
+    margin-left: 66px;
 }
